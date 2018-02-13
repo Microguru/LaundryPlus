@@ -1,0 +1,348 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* main content */
+
+/*HOME PAGE STYLE */
+
+.container1
+{
+
+display: inline-block;
+background-image:url("../images/back1.png");
+background-repeat: no-repeat;
+ background-size: 100% 100%;
+ border:2px solid red;
+ 
+
+}
+.overlay{
+
+  width:100%;
+  height:100%;
+  display: block;
+  z-index:1;
+  background-color: rgba(176,224,230,0.6);
+}
+.logo
+{
+	
+	width:50%;
+	height: 40%;
+	padding: 1%;
+	display: inline-block;
+	
+}
+.container1 img
+{
+width:20%;
+display: inline-block;
+padding-top:2%;
+}
+.head
+{
+	padding: 2%;
+}
+.logo-txt{
+
+    width:50%; 
+	display: inline-block;
+	color:white;
+	font-family: arial, sans-serif;
+	font-size: 140%;
+	font-weight: bold;
+	color:#4CAF50;
+
+}
+.logo-txt p
+{text-align: right;
+	color:darkgreen;
+}
+
+
+.heading-logo p{
+	display: inline-block;
+	width:100%;
+	font-family: Monaco;
+	color: mediumturquoise;
+	font-size: 2em;
+	text-align: left;
+}
+
+.head-text img
+{
+width: 90%;
+padding: 0%;
+float: right;
+}
+
+.head2{
+	float: right;
+	margin-top:4%; 
+margin-right: 2%; 
+width:42%;
+padding: 1%;
+}
+.head2 .contact h3
+{
+ font-family:Oswald Verdane;
+ font-size:1.3em; 
+ text-align: center; 
+ padding-bottom: 2%;
+ color:white;
+}
+/*------------------------navigation-------------------*/
+.nav
+{
+	display: inline-block;
+    width:90%;
+    margin-left: 19%;
+}
+ul li
+{
+	display: inline-block;
+	padding: 2%;
+}
+li
+{
+	border-right: 2px solid green;
+	border-radius: 6%;
+}
+
+.logo-item
+{   margin-top:7%;
+	width: 50%;
+	float: left;
+	    display: inline-block;
+   
+}
+
+.logo-item img
+{ 
+	width:7%;
+	margin:0% 4%;
+	display:inline-block;
+border-radius: 50%;
+border: 2px solid white;
+float: left;
+}
+.img1
+{
+	
+	display: inline-block;
+	width: 100%;
+	
+	padding: 1%;
+
+}
+.logo-item p
+{
+	text-align: center;
+	font-size: 3em;
+	color:white;
+	font-family: 'Patua One', cursive;
+	padding-top:1%;
+	padding-bottom: 1%; 
+}
+.imgp  p
+{ text-align: left;
+	font-size: 100%;
+	
+  width: 60%;
+	font-family: cursive;
+	display: inline-block;
+	padding-top: 4%; 
+}
+
+.item2 .text-item p
+{
+	text-align: center;
+	padding: 0%;
+	color:blue;
+	font-size: 1.2em;
+	font-family:sans-serif; 
+	font-weight: bold;
+}
+.item2 .text-item p:firstchild
+{
+	font-size:80%; 
+}
+
+/*------------------------------ form---------------------------*/
+
+
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+input[type=radio], select {
+  
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    font-size: 20%;
+   
+}
+input[type=submit] {
+    width: 100%;
+    background-color: darkcyan;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+   
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+.form{
+	display: inline-block;
+	width:30%;
+     margin-right: 3%;
+    padding: 10px;
+    margin-top: 12%;
+    float: right;
+    border: 2px  solid white;
+    margin-bottom: 5%;
+    border-radius: 3%;
+}
+
+.form p
+{   padding: 2%;
+	font-weight: bold;
+	font-size: 1.7em;
+	font-family: 'Arvo', serif;
+	text-align: center;
+	color:white;
+}
+
+.container {
+    display: inline-block;
+    position: relative;
+    padding-left: 40px;
+    padding-right:  2%;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 18px;
+    color: white;
+    font-weight:bold; 
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+/* Hide the browser's default radio button */
+.container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+
+/* Create a custom radio button */
+.checkmark {
+	position: absolute;
+    top: 0;
+    left: 0;
+    height: 20px;
+    width: 20px;
+    background-color: #eee;
+    border-radius: 50%;
+}
+
+/* On mouse-over, add a grey background color */
+.container:hover input ~ .checkmark {
+    background-color: #ccc;
+}
+
+/* When the radio button is checked, add a blue background */
+.container input:checked ~ .checkmark {
+    background-color: #2196F3;
+}
+
+/* Create the indicator (the dot/circle - hidden when not checked) */
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+/* Show the indicator (dot/circle) when checked */
+.container input:checked ~ .checkmark:after {
+    display: block;
+}
+
+/* Style the indicator (dot/circle) */
+.container .checkmark:after {
+ 	top: 6px;
+	left: 6px;
+	width: 8px;
+	height: 8px;
+	border-radius: 50%;
+	background: white;
+}
+/* ---------------home page end-----------------------*/
+/*-------------------container2 About us--------------*/
+.container2
+{
+	border: 2px solid red;
+	width:100%;
+	display: inline-block;
+	margin-top:1%;
+	 
+	background-color: rgba(255,234,234,0.8);
+}
